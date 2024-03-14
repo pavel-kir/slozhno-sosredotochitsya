@@ -205,7 +205,7 @@
   block-size: 100vb;
 }
 
-.footer__title{
+.footer__title {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   line-height: 82.5%;
   font-weight: bold;

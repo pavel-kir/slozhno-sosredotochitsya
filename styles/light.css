@@ -9,7 +9,7 @@
   --focus-color: #FFC2E6;
   --accent-color: #FF8DCB;
   --text-color: #353430;
-  --text-list-color: #353430;  
+  --text-list-color: #353430;
 }
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
@@ -29,14 +29,14 @@
     --focus-color: #FFC2E6;
     --accent-color: #FF8DCB;
     --text-color: #353430;
-    --text-list-color: #353430;  
+    --text-list-color: #353430;
   }
 
   .page {
     
     background-image: url(../images/cover-image-light.png);
   }
-  
+
   .overlay {
     visibility: hidden;
   }
