@@ -10,6 +10,7 @@
   --accent-color: #FF8DCB;
   --text-color: #353430;
   --text-list-color: #353430;
+  --button-hover-color: rgb(50 49 45 / 0.4);
 }
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
@@ -30,6 +31,7 @@
     --accent-color: #FF8DCB;
     --text-color: #353430;
     --text-list-color: #353430;
+    --button-hover-color: rgb(50 49 45 / 0.4);
   }
 
   .page {

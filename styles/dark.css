@@ -10,6 +10,7 @@
   --accent-color: #FF0070;
   --text-color: #000028;
   --text-list-color: #F1B2CE;
+  --button-hover-color: rgb(255 0 112 / 0.4);
 }
 
 .page.theme_dark {

@@ -2,12 +2,12 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  background-image: url(../images/cover-image.png);
+  background-image: url(../images/cover-image-dark.png);
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
   background-color: var(--bg-color, #000028);
-  font-family: var(--main-font, 'IBM Plex mono'), sans-serif;
+  font-family: var(--main-font, 'IBM Plex mono'), monospace;
   font-weight: normal;
   font-size: var(--main-font-size, 18px);
   line-height: var(--main-line-height, 1.3);
@@ -57,7 +57,8 @@
 }
 
 .overlay::before {
-  content: "REC";
+  content: "rec";
+  text-transform: uppercase;
   margin-inline-end: 10px;
 }
 
@@ -85,6 +86,7 @@
   padding-inline: 13px;
   padding-block-start: 3px;
   padding-block-end: 5px;
+  cursor: pointer;
 }
 
 .header__theme-menu-item:not(:last-child) {
@@ -98,7 +100,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid currentColor;
+  outline: 1px solid var(--button-hover-color, rgb(255 0 112 / 0.4));
   outline-offset: -1px;
 }
 
@@ -160,13 +162,17 @@
   color: var(--text-list-color, #F1B2CE);
 }
 
+.content-section__list-text:not(:last-child) {
+  margin-block-end: var(--title-margin, 10px);
+}
+
 .content-section__list-link {
   text-decoration: none;
   text-shadow: 2px 2px 0 var(--accent-color, #FF0070);
 }
 
 .content-section__list-link:hover {
-  border-block-end: 2px solid currentColor;
+  border-block-end: 1px solid currentColor;
 }
 
 .content-section__list-link:focus-visible {
